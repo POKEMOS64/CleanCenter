@@ -1,0 +1,38 @@
+.call_back
+  +bg(call_back, jpg)
+  background-position: center 0
+  &_h2
+    text-align: center
+    text-transform: uppercase
+    color: #ffffff
+    font:
+      size: 1.8rem
+      family: $CC
+    margin-bottom: 1rem
+  &_h3
+    text-align: center
+    text-transform: uppercase
+    color: #ffffff
+    font:
+      size: 1.33rem
+      
+  form
+    display: flex
+    justify-content: center
+    flex-direction: row
+    flex-wrap: wrap
+    padding: 1rem 0
+
+  input
+    max-width: 320px
+    margin: 0 1rem
+    border: 4px solid $color-blue
+    padding: .5rem 1rem
+    &[type='submit']
+      background: $color-blue
+      color: #ffffff
+      font:
+        family: $OS
+    @media(max-width: 760px)
+      width: 100%
+      display: block
